@@ -1,0 +1,33 @@
+.img {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.videoPlayer {
+    width: 500px;
+    height: 500px;
+}
+
+.otherVideo .upNext .reconnedVideo img {
+    width: 200px;
+    height: 200px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#youtubeHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#youtubeHeader .youtubeLogo i {
+    color: red;
+}
