@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label for="body"><strong>Fisrt name </strong></label><input required placeholder="Name" type="text" />
+            </div>
+
+            <div>
+                <label for="body"><strong>Last name </strong></label><input required placeholder="Last Name" type="text" />
+            </div>
+            <div>
+                <label for="body"><strong>Email </strong></label><input placeholder="Email" type="email" required />
+            </div>
+            <div>
+                <label for="body"><strong>Username </strong></label><input required placeholder="User Name" type="text" />
+            </div>
+            <div>
+                <label for="pass"><strong>Password</strong></label>
+                <input type="password" id="pass" placeholder="Password" minlength="10" required />
+            </div>
+            <div>
+                <label for="body"><strong>Birth date </strong></label><input requried placeholder="Birth date" type="date" />
+            </div>
+            <div>
+                <label for="How happy are you?"><strong>How happy are you?</strong></label>
+                <input type="range" list="tickmarks" />
+                <datalist id="tickmarks">
+                    <option value="0" label="0%"></option>
+                    <option value="10"></option>
+                    <option value="20"></option>
+                    <option value="30"></option>
+                    <option value="40"></option>
+                    <option value="50" label="50%"></option>
+                    <option value="60"></option>
+                    <option value="70"></option>
+                    <option value="80"></option>
+                    <option value="90"></option>
+                    <option value="100" label="100%"></option>
+                </datalist>
+            </div>
+            <br />
+            <div>
+                <label for="body"><strong>What is yout fav. color? </strong></label>
+                <input type="color" id="body" name="body" value="red" />
+            </div>
+            <br />
+            <div>
+                <input type="submit" value="Create count" />
+            </div>
+        </form>
+    </body>
+</html>
