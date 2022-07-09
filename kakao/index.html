@@ -7,40 +7,32 @@
         <title>Document</title>
         <link href="style.css" rel="stylesheet" />
         <style>
-            * {
-                border: 2px solid black;
+            body {
+                margin: 20px;
             }
-            html {
-                background-color: tomato;
-            }
-            div {
-                padding: 20px;
-                border: 2px soild black;
-            }
-            #first {
-                background-color: whitesmoke;
-                width: 150px;
-                height: 150px;
-            }
-            #second {
+            span {
                 background-color: teal;
-                width: 100px;
-                height: 100px;
             }
-            #third {
-                background-color: blue;
-                width: 50px;
-                height: 50px;
+            .tomato {
+                background-color: tomato;
+                color: white;
+            }
+            .teal {
+                background-color: teal;
+            }
+            .btn {
+                padding: 5px 10px;
+                border-radius: 5px;
             }
         </style>
     </head>
     <body>
-        <div id="first">
-            <div id="second">
-                <div id="third">
-                    <span>gello</span>
-                </div>
-            </div>
-        </div>
+        <span class="btn teal">hello</span>
+        <span class="btn tomato">hello</span>
+        <span class="btn teal">hello</span>
+        <span class="btn tomato">hello</span>
+        <span>hello</span>
+        <span class="btn tomato">hello</span>
+        <span class="btn teal">hello</span>
     </body>
 </html>
