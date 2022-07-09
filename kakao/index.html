@@ -7,27 +7,49 @@
         <title>Document</title>
         <link href="style.css" rel="stylesheet" />
         <style>
+            html {
+                background-color: tomato;
+            }
+            body {
+                margin: 20px;
+                padding: 20px;
+
+                background-color: thistle;
+            }
             div {
                 height: 150px;
                 width: 150px;
-                background-color: tomato;
+                padding: 10px;
             }
-            span {
+            #first {
+                background-color: whitesmoke;
+                width: 150px;
+                height: 150px;
+            }
+            #second {
+                background-color: teal;
+                width: 100px;
+                height: 100px;
+            }
+            #third {
                 background-color: blue;
+                width: 50px;
+                height: 50px;
+            }
+            #fourth {
+                background-color: red;
+                width: 25px;
+                height: 25px;
             }
         </style>
     </head>
     <body>
-        <!-- 박스 -->
-        <div></div>
-        <div></div>
-        <div></div>
-        <!-- 인라인 -->
-        <span>hi</span>
-        <span>hi</span>
-        <span>hi</span>
-        <a href="#">link</a>
-        <span>hi</span>
-        <p>asdasd</p>
+        <div id="first">
+            <div id="second">
+                <div id="third">
+                    <div id="fourth"></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
