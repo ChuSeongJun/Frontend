@@ -1,7 +1,7 @@
 .father {
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    height: 110vh;
     align-content: space-around;
     flex-wrap: wrap;
 }
