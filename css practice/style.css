@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-around;
     height: 100vh;
+    align-content: space-around;
+    flex-wrap: wrap;
 }
 
 .child {
@@ -10,11 +12,7 @@
     background-color: orange;
     color: white;
     font-size: 50px;
-}
-
-.child:nth-child(2) {
-    order: 2;
-}
-.child:nth-child(3) {
-    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
