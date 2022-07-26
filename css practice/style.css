@@ -13,8 +13,8 @@
 }
 
 .child:nth-child(2) {
-    align-self: center;
+    order: 2;
 }
 .child:nth-child(3) {
-    align-self: flex-end;
+    order: 1;
 }
