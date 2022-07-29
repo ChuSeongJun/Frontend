@@ -1,19 +1,15 @@
 .father {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 20px 55px 89px 100px;
+    column-gap: 10px;
+    gap: 10px;
 }
 
 .child {
-    flex-basis: 33%;
     background-color: orange;
     color: white;
     font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.child:nth-child(4) {
-    margin-top: 10px;
 }
