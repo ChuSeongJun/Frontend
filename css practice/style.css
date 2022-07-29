@@ -1,18 +1,19 @@
 .father {
     display: flex;
-    justify-content: space-around;
-    height: 110vh;
-    align-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .child {
-    width: 200px;
-    height: 200px;
+    flex-basis: 33%;
     background-color: orange;
     color: white;
     font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.child:nth-child(4) {
+    margin-top: 10px;
 }
