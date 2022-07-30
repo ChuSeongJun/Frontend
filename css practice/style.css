@@ -1,15 +1,25 @@
-.father {
-    display: grid;
-    grid-template-columns: 20px 55px 89px 100px;
-    column-gap: 10px;
-    gap: 10px;
+.header {
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.content {
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.nav {
+    background-color: red;
+}
+.footer {
+    background-color: yellow;
 }
 
-.child {
-    background-color: orange;
-    color: white;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
 }
