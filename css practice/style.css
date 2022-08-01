@@ -1,26 +1,15 @@
 .grid {
+    color: white;
     display: grid;
-    gap: 10px;
-    height: 50vh;
-    grid-template:
-        "header header header header" 1fr
-        "content content content nav" 2fr
-        "footer footer footer footer" 1fr / 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    grid-template-columns: repeat(5, minmax(max-content, 1fr));
+    grid-auto-rows: 100px;
+    margin-bottom: 30px;
 }
 
-.header {
+.item:nth-child(odd) {
     background-color: #2ecc71;
-    grid-area: header;
 }
-.content {
+.item:nth-child(even) {
     background-color: #3498db;
-    grid-area: content;
-}
-.nav {
-    background-color: #8e44ad;
-    grid-area: nav;
-}
-.footer {
-    background-color: #f39c12;
-    grid-area: footer;
 }
